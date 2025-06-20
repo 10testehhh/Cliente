@@ -1,0 +1,31 @@
+ Renomear a pasta do Edge:
+No Explorador de Arquivos, navegue até
+
+C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe depois C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbweDISABLE
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+
+NoRemove 0
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+NoRemove 0
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+NoRemove 0
+
+taskkill /f /im OneDrive.exe
+
+32bit
+%SystemRoot%\System32\OneDriveSetup.exe /uninstall
+
+64bit
+%SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+
+
+
+Navegue até as chaves de inicialização:
+
+Vá para HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run.
+ 
+Em seguida, vá para 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run. 
