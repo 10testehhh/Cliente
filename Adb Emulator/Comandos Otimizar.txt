@@ -1,0 +1,39 @@
+Para otimizar o desempenho do seu dispositivo Android, você pode usar diversos comandos ADB que permitem ajustar propriedades de sistema, como a resolução, a taxa de atualização, e a renderização gráfica. Além disso, é possível ativar perfis de desempenho para monitorar e analisar o comportamento do sistema. 
+Principais comandos ADB para desempenho:
+adb shell settings put system window_animation_scale 0: Desativa as animações de janela para uma transição mais rápida.
+
+adb shell settings put system ui_animation_scale 0: Desativa as animações de IU para um desempenho mais suave.
+
+adb shell settings put system transition_animation_scale 0: Desativa as animações de transição para uma experiência mais rápida.
+
+adb shell settings put system display_density 200: Define a densidade da tela (DPI) para um valor mais baixo, o que pode melhorar o desempenho, especialmente em telas maiores.
+
+adb shell settings put system display_resolution <width>:<height>: Define a resolução da tela. Por exemplo, adb shell settings put system display_resolution 1080:1920 define a resolução para 1080x1920.
+
+adb shell settings put system debug_gpu_overdraw 1: Ativa o modo de sobrecarga GPU, útil para identificar problemas de desenho na tela.
+
+adb shell settings put system enable_vr_mode 0: Desativa o modo VR, que pode afetar o desempenho em alguns dispositivos.
+
+adb shell settings put system force_opengl 0: Permite que o dispositivo selecione a API de renderização gráfica mais adequada (OpenGL ou Vulkan).
+
+adb shell settings put system hwc.force_gpu_vsync 1: Força o uso de VSync da GPU para sincronizar a tela com a taxa de atualização, o que pode melhorar a fluidez.
+
+adb shell settings put system performance.profile 1: Ativa o perfil de desempenho para monitorar e analisar o desempenho do dispositivo.
+
+adb shell settings put system refresh_rate.min_fps <valor>: Define a taxa mínima de quadros por segundo (FPS) que o dispositivo tentará manter.
+
+adb shell dumpsys gfxinfo: Mostra informações gráficas, incluindo o tipo de driver gráfico e a taxa de quadros.
+
+adb shell dumpsys meminfo: Exibe informações sobre o uso de memória, o que pode ajudar a identificar gargalos de memória. 
+
+
+
+
+
+Observações:
+Estes comandos precisam ser executados no prompt de comando do seu computador, com o dispositivo Android conectado e com a depuração USB ativada. 
+Alguns comandos podem exigir privilégios de root (superusuário) para serem executados. 
+A alteração de algumas propriedades, como a resolução da tela, pode afetar a experiência do usuário, por isso é importante considerar cuidadosamente as implicações antes de executá-los. 
+O uso de perfis de desempenho pode ser útil para identificar problemas de desempenho em aplicativos específicos. 
+O comando adb shell dumpsys pode ser usado para exibir informações sobre diversos sistemas, como memória, CPU, bateria, etc. 
+Você pode usar o comando adb shell para executar comandos diretamente na shell do dispositivo, o que pode ser útil para algumas configurações específicas. 

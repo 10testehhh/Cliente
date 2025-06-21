@@ -1,0 +1,164 @@
+AIDA64
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.finalwire.aida64
+Activity Launcher
+de.szalkowski.activitylauncher
+Free Fire
+com.dts.freefireth
+Droid Info
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.inkwired.droidinfo
+CPU-Z
+com.cpuid.cpu_z
+Package Names
+com.csdroid.pkg
+Settings Suggestions
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.settings.intelligence &
+Storage Manager
+com.android.storagemanager
+Print Spooler
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.printspooler &
+Package Access Helper
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.defcontainer &
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.carrierconfig &
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.carrierconfig &
+Double display cutout
+com.android.internal.display.cutout.emulation.double
+Android Services Library
+android.ext.services
+Phone
+com.android.dialer
+Mobile Data
+com.android.phone
+PacProcessor
+com.android.pacprocessor
+CaptivePortalLogin
+com.android.captiveportallogin
+com.google.android.gms.setup
+com.google.android.gms.setup
+Input Devices
+com.android.inputdevices
+Location Provider
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.location.provider &
+Google Calendar Sync
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.syncadapters.calendar &
+Live Wallpaper Picker
+com.android.wallpaper.livepicker
+Calendar Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.calendar &
+Contacts
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.contacts &
+Google Partner Setup
+com.google.android.partnersetup
+Mobile Network Configuration
+com.android.providers.telephony
+Clock
+com.android.deskclock
+External Storage
+com.android.externalstorage
+Google Play Store
+adb -s 127.0.0.1:5555 shell am force-stop com.android.vending & 
+Android Shared Library
+adb -s 127.0.0.1:5555 shell am force-stop com.google.android.ext.shared & 
+Key Chain
+adb -s 127.0.0.1:5555 shell am force-stop com.android.keychain & 
+Gallery
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.gallery3d &
+Chrome
+adb -s 127.0.0.1:5555 shell am force-stop com.android.chrome & 
+com.android.cts.ctsshim
+com.android.cts.ctsshim
+Contacts Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.contacts &
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.sharedstoragebackup &
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.sharedstoragebackup &
+Media Storage
+com.android.providers.media
+Files
+com.android.documentsui
+Android Keyboard (AOSP)
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.inputmethod.latin &
+Bookmark Provider
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.bookmarkprovider &
+VpnDialogs
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.vpndialogs &
+Google Services Framework
+adb -s 127.0.0.1:5555 shell am force-stop com.google.android.gsf & 
+adb -s 127.0.0.1:5555 shell am force-stop com.android.wallpapercropper & 
+com.android.wallpapercropper
+Corner display cutout
+com.android.internal.display.cutout.emulation.corner
+Android System
+android
+CarrierDefaultApp
+com.android.carrierdefaultapp
+One Time Init
+com.android.onetimeinitializer
+Google Backup Transport
+adb -s 127.0.0.1:5555 shell am force-stop com.google.android.backuptransport & 
+Google Play services
+adb -s 127.0.0.1:5555 shell am force-stop com.google.android.gms & 
+Fused Location
+adb -s 127.0.0.1:5555 shell am force-stop com.android.location.fused & 
+Android System WebView
+com.android.webview
+Intent Filter Verification Service
+com.android.statementservice
+Certificate Installer
+adb -s 127.0.0.1:5555 shell am force-stop com.android.certinstaller & 
+Dark
+adb -s 127.0.0.1:5555 shell am force-stop com.android.systemui.theme.dark &
+Settings Storage
+com.android.providers.settings
+System UI
+com.android.systemui
+Google Play Games
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.play.games &
+Google Account Manager
+adb -s 127.0.0.1:5555 shell am force-stop com.google.android.gsf.login &
+com.android.provision
+com.android.provision
+Default Print Service
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.bips &
+Companion Device Manager
+com.android.companiondevicemanager
+ProxyHandler
+com.android.proxyhandler
+Sim App Dialog
+adb -s 127.0.0.1:5555 shell am force-stop com.android.simappdialog & 
+Camera
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.camera2 &
+Download Manager
+adb -s 127.0.0.1:5555 shell am force-stop com.android.providers.downloads &
+Package installer
+adb -s 127.0.0.1:5555 shell am force-stop com.android.packageinstaller & 
+Print Service Recommendation Service
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.printservice.recommendation &
+Tall display cutout
+com.android.internal.display.cutout.emulation.tall
+Calculator
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.calculator2 &
+com.android.cts.priv.ctsshim
+com.android.cts.priv.ctsshim
+com.android.wallpaperpicker
+com.android.wallpaperpicker
+Downloads
+com.android.providers.downloads.ui
+Google Contacts Sync
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.syncadapters.contacts &
+Blocked Numbers Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.blockednumber &
+Shell
+com.android.shell
+com.android.backupconfirm
+com.android.backupconfirm
+Google One Time Init
+com.google.android.onetimeinitializer
+System Tracing
+adb -s 127.0.0.1:5555 shell am force-stop com.android.traceur &
+Calendar
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.calendar &
+Settings
+com.android.settings
+User Dictionary
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.userdictionary &
+HTML Viewer
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.htmlviewer &

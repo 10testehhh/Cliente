@@ -1,0 +1,366 @@
+
+executar adb eh Desconectar todos dispositivos pra depois fazer conexao corretamente
+
+cd C:\Windows\Temp\platform-tools & adb kill-server & adb disconnect & adb connect 127.0.0.1:5555
+
+
+adb -s 127.0.0.1:5555 shell settings put secure wallpaper_commands /sdcard/Download/images.jpeg
+
+adb -s 127.0.0.1:5555 shell settings put secure wallpaper_path /storage/emulated/0/Download/images.jpeg
+
+adb -s 127.0.0.1:5555 shell settings put secure wallpaper_path
+
+Conectar no Emulador
+
+ adb -s 127.0.0.1:5555 root
+
+adb connect 127.0.0.1:5555
+
+
+
+adb -s 127.0.0.1:5555 shell dumpsys activity activities
+adb -s 127.0.0.1:5555 pull /data/.bluestacks.prop
+
+adb -s 127.0.0.1:5555 push .bluestacks.prop /data/
+
+adb -s 127.0.0.1:5555 push build.prop/system/
+
+adb -s 127.0.0.1:5555 pull /system/build.prop
+
+adb -s 127.0.0.1:5555 push PlayIntegrityFix_v19.1.zip/storage/emulated/0/Download
+
+adb -s 127.0.0.1:5555 push C:/Windows/Temp/platform-tools/PlayIntegrityFix_v19.1.zip /sdcard/Download/
+
+adb -s 127.0.0.1:5555 reboot
+
+ver propriedades do aparelho
+
+adb -s 127.0.0.1:5555 shell getprop
+
+
+adb shell 
+
+activity manager
+
+adb -s 127.0.0.1:5555 shell am 
+
+
+Perfomance
+
+adb -s 127.0.0.1:5555 shell 
+
+
+Escrever texto
+
+adb shell input
+
+alterar configs do emulador
+
+adb -s 127.0.0.1:5555 shell settings
+
+adb -s 127.0.0.1:5555 shell settings list system
+
+adb -s 127.0.0.1:5555 shell settings list secure 
+
+adb -s 127.0.0.1:5555 shell settings list global
+
+adb -s 127.0.0.1:5555 shell settings put global device_name RMX5070
+
+adb -s 127.0.0.1:5555 shell settings put secure refresh_rate_mode 1
+
+adb -s 127.0.0.1:5555 shell settings put system peak_refresh_rate 999.0
+
+
+
+adb shell input text 
+
+adb shell input keyevent 176
+
+abrir app
+
+
+free fire
+adb shell am start -n com.dts.freefireth/com.dts.freefireth.FFMainActivity
+
+
+Forca parada no app
+
+adb -s 127.0.0.1:5555 shell am force-stop com.bluestacks.launcher/activity.HomeActivity
+
+
+
+
+
+
+
+
+Limpar memoria do app
+
+adb  -s 127.0.0.1:5555 shell pm clear --user 0 
+
+
+
+
+
+adb -s 127.0.0.1:5555 shell setprop debug.hwul.renderer opengl
+
+
+calendario
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.calendar
+
+teclado
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.inputmethod.latin
+
+bookmarkprovider
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.bookmarkprovider
+
+block numeros
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.blockednumber
+
+calculadora
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.calculator2
+
+Settings Suggestions
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.settings.intelligence
+
+
+Print Spooler
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.printspooler
+
+
+Package Access Helper
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.defcontainer
+
+
+Location Provider
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.location.provider
+
+
+Google Calendar Sync
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.syncadapters.calendar
+
+
+Live Wallpaper Picker
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.wallpaper.livepicker
+
+
+Calendar Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.calendar
+
+Contacts
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.contacts
+
+Android Shared Library
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.ext.shared
+
+Contacts Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.contacts
+
+Contacts Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.sharedstoragebackup
+
+Contacts Storage
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.sharedstoragebackup
+
+VpnDialogs
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.vpndialogs
+
+HTML Viewer
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.htmlviewer
+
+Fused Location
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.location.fused
+
+Dark
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.systemui.theme.dark
+
+Google Play Games
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.play.games
+
+Default Print Service
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.bips
+
+Sim App Dialog
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.simappdialog
+
+Camera
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.camera2
+
+Print Service Recommendation Service
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.printservice.recommendation
+
+Calculator
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.calculator2
+
+
+Google Contacts Sync
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.google.android.syncadapters.contacts
+
+Blocked Numbers Storage
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.blockednumber
+
+
+User Dictionary
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 com.android.providers.userdictionary 
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+adb  -s 127.0.0.1:5555 shell pm uninstall --user 0 
+
+
+
+
+
+Google Backup Transport
+com.google.android.backuptransport
+Google Play services
+com.google.android.gms
+Android System WebView
+com.android.webview
+Intent Filter Verification Service
+com.android.statementservice
+Certificate Installer
+com.android.certinstaller
+Settings Storage
+com.android.providers.settings
+System UI
+com.android.systemui
+Google Account Manager
+com.google.android.gsf.login
+com.android.provision
+com.android.provision
+Companion Device Manager
+com.android.companiondevicemanager
+ProxyHandler
+com.android.proxyhandler
+Download Manager
+com.android.providers.downloads
+Package installer
+com.android.packageinstaller
+Tall display cutout
+com.android.internal.display.cutout.emulation.tall
+com.android.cts.priv.ctsshim
+com.android.cts.priv.ctsshim
+com.android.wallpaperpicker
+com.android.wallpaperpicker
+Downloads
+com.android.providers.downloads.ui
+Shell
+com.android.shell
+com.android.backupconfirm
+com.android.backupconfirm
+Google One Time Init
+com.google.android.onetimeinitializer
+System Tracing
+com.android.traceur
+Settings
+com.android.settings
+Corner display cutout
+com.android.internal.display.cutout.emulation.corner
+Android System
+android
+CarrierDefaultApp
+com.android.carrierdefaultapp
+One Time Init
+com.android.onetimeinitializer
+Key Chain
+com.android.keychain
+Gallery
+com.android.gallery3d
+Chrome
+com.android.chrome
+com.android.cts.ctsshim
+com.android.cts.ctsshim
+Google Play Store
+com.android.vending
+com.android.carrierconfig
+com.android.carrierconfig
+Double display cutout
+com.android.internal.display.cutout.emulation.double
+Android Services Library
+android.ext.services
+Phone
+com.android.dialer
+Mobile Data
+com.android.phone
+PacProcessor
+com.android.pacprocessor
+CaptivePortalLogin
+com.android.captiveportallogin
+com.google.android.gms.setup
+com.google.android.gms.setup
+Input Devices
+com.android.inputdevices
+Storage Manager
+com.android.storagemanager
+Google Partner Setup
+com.google.android.partnersetup
+Mobile Network Configuration
+com.android.providers.telephony
+Clock
+com.android.deskclock
+External Storage
+com.android.externalstorage
+Media Storage
+com.android.providers.media
+Files
+com.android.documentsui
+Google Services Framework
+com.google.android.gsf
+com.android.wallpapercropper
+com.android.wallpapercropper
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+adb -s 127.0.0.1:5555 shell settings put system peak_refresh_rate 360.0 & 
+
+adb -s 127.0.0.1:5555 shell settings put system min_refresh_rate 240.0 & 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+
+
+Fluidez
+
+adb -s 127.0.0.1:5555 shell settings put global disable_window_blurs 1 & 
+
+adb -s 127.0.0.1:5555 shell settings put global accessibility_reduce_transparency 1 & 
+
+adb -s 127.0.0.1:5555 shell cmd power set-fixed-performance-mode-enabled true
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 

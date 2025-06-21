@@ -1,0 +1,37 @@
+Boot rapido apps sem logs
+
+adb -s 127.0.0.1:5555 shell settings put system rakuten_denwa 0
+
+adb -s 127.0.0.1:5555 shell settings put system send_security_reports 0
+
+adb -s 127.0.0.1:5555 shell settings put secure send_action_app_error 0
+
+adb -s 127.0.0.1:5555 shell settings put global activity_starts_logging_enabled 0
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 

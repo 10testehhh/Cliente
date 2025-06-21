@@ -1,0 +1,3 @@
+Para remover os ads: 
+bst.feature.send_programmatic_ads_click_stats="0"
+bst.feature.send_programmatic_ads_fill_stats="0"

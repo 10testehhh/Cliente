@@ -1,0 +1,7 @@
+adb shell settings put global policy_control immersive.status=*
+
+adb shell settings put global policy_control immersive.navigation=*
+
+adb shell settings put global policy_control immersive.full=*
+
+adb shell settings put global policy_control null*

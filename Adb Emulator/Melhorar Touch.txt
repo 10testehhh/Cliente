@@ -1,0 +1,13 @@
+adb -s 127.0.0.1:5555 shell settings put secure tap_duration_threshold 0.0
+
+adb -s 127.0.0.1:5555 shell settings put secure touch_blocking_period 0.0
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
+
+adb -s 127.0.0.1:5555 
