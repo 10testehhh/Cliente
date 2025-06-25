@@ -1,0 +1,1 @@
+C:\SetTimerResolution.exe --resolution 5067 --no-console
