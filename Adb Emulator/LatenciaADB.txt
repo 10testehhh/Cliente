@@ -24,17 +24,7 @@ Comandos
 
 
 
-adb -s 127.0.0.1:5555 shell settings put system debug_gpu_overdraw 1 & 
-
-adb -s 127.0.0.1:5555 shell settings put system enable_vr_mode 0 & 
-
-adb -s 127.0.0.1:5555 shell settings put system force_opengl 0 & 
-
-adb -s 127.0.0.1:5555 shell settings put system hwc.force_gpu_vsync 1 & 
-
-adb -s 127.0.0.1:5555 shell settings put system performance.profile 1 & 
-
-adb -s 127.0.0.1:5555 shell settings put system refresh_rate.min_fps 360.0 & 
+adb -s 127.0.0.1:5555 shell settings put system debug_gpu_overdraw 1 & adb -s 127.0.0.1:5555 shell settings put system enable_vr_mode 0 & adb -s 127.0.0.1:5555 shell settings put system force_opengl 0 & adb -s 127.0.0.1:5555 shell settings put system hwc.force_gpu_vsync 1 & adb -s 127.0.0.1:5555 shell settings put system performance.profile 1 & adb -s 127.0.0.1:5555 shell settings put system refresh_rate.min_fps 360.0  
 
 
 
@@ -44,17 +34,7 @@ adb -s 127.0.0.1:5555 shell settings put system refresh_rate.min_fps 360.0 &
 
 (Fluidez)
 
-adb -s 127.0.0.1:5555 shell settings put global transition_animation_scale 0.0 & 
-
-adb -s 127.0.0.1:5555 shell settings put global window_animation_scale 0.0 & 
-
-adb  -s 127.0.0.1:5555 shell settings put system window_animation_scale 0.0 & 
-
-adb -s 127.0.0.1:5555 shell settings put system ui_animation_scale 0.0 & 
-
-adb  shell settings put system transition_animation_scale 0.0 & 
-
-adb -s 127.0.0.1:5555 shell settings put global ui_animation_scale 0.0 &
+adb -s 127.0.0.1:5555 shell settings put global transition_animation_scale 0.0 & adb -s 127.0.0.1:5555 shell settings put global window_animation_scale 0.0 & adb  -s 127.0.0.1:5555 shell settings put system window_animation_scale 0.0 & adb -s 127.0.0.1:5555 shell settings put system ui_animation_scale 0.0 & adb  shell settings put system transition_animation_scale 0.0 & adb -s 127.0.0.1:5555 shell settings put global ui_animation_scale 0.0 
 
 
 
@@ -65,23 +45,7 @@ adb -s 127.0.0.1:5555 shell settings put global ui_animation_scale 0.0 &
 
 (TOUCH)
 
-adb -s 127.0.0.1:5555 shell settings put secure multi_press_timeout 001 & 
-
-adb -s 127.0.0.1:5555 shell settings put secure long_press_timeout 001 & 
-s
-adb -s 127.0.0.1:5555 shell settings put system display_density 100 & 
-
-adb -s 127.0.0.1:5555 shell settings put secure multi_press_timeout 001 & 
-
-adb -s 127.0.0.1:5555 shell settings put global display.touch.long_press_timeout 001 & 
-
-adb -s 127.0.0.1:5555 shell settings put global display.touch.long_press_timeout 001 & 
-
-adb -s 127.0.0.1:5555 shell settings put global display.touch.drag_delay 001 &
-
-adb -s 127.0.0.1:5555 shell settings put global touch.multi_press_timeout 001 &
-
-adb -s 127.0.0.1:5555 shell settings put global touch.press_long 001 &
+adb -s 127.0.0.1:5555 shell settings put secure multi_press_timeout 001 & adb -s 127.0.0.1:5555 shell settings put secure long_press_timeout 001 & adb -s 127.0.0.1:5555 shell settings put system display_density 100 & adb -s 127.0.0.1:5555 shell settings put secure multi_press_timeout 001 & adb -s 127.0.0.1:5555 shell settings put global display.touch.long_press_timeout 001 & adb -s 127.0.0.1:5555 shell settings put global display.touch.long_press_timeout 001 & adb -s 127.0.0.1:5555 shell settings put global display.touch.drag_delay 001 & adb -s 127.0.0.1:5555 shell settings put global touch.multi_press_timeout 001 & adb -s 127.0.0.1:5555 shell settings put global touch.press_long 001 
 Loiro
 adb -s 127.0.0.1:5555 
 

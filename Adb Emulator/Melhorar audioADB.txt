@@ -1,6 +1,4 @@
-adb -s 127.0.0.1:5555 shell settings put system k2hd_effect 1
-
-adb -s 127.0.0.1:5555 shell settings put system tube_amp_effect 1
+adb -s 127.0.0.1:5555 shell settings put system k2hd_effect 1 & adb -s 127.0.0.1:5555 shell settings put system tube_amp_effect 1
 
 adb -s 127.0.0.1:5555 
 

@@ -1,7 +1,1 @@
-adb -s 127.0.0.1:5555 shell settings put global policy_control immersive.status=*
-
-adb -s 127.0.0.1:5555 shell settings put global policy_control immersive.navigation=*
-
-adb -s 127.0.0.1:5555 shell settings put global policy_control immersive.full=*
-
-adb -s 127.0.0.1:5555 shell settings put global policy_control null*
+adb -s 127.0.0.1:5555 shell settings put global policy_control immersive.status=* & adb -s 127.0.0.1:5555 shell settings put global policy_control immersive.navigation=* & adb -s 127.0.0.1:5555 shell settings put global policy_control immersive.full=* & adb -s 127.0.0.1:5555 shell settings put global policy_control null* 

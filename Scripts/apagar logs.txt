@@ -1,0 +1,7 @@
+Para limpar o log de Aplicativo:
+
+ wevtutil cl Application
+
+Para limpar o log de Segurança:
+
+ wevtutil cl Security
