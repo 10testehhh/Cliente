@@ -1,3 +1,0 @@
-APENAS ARRASTAR O ARQUIVO LoiroSettings.nip PARA O PROGRAMA nvidiaProfileInspector.exe
-
-PRONTO JA CONFIGUREI PRA TUH
