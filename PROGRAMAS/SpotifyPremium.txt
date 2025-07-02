@@ -1,1 +1,4 @@
-iwr -useb httpsraw.githubusercontent.comspicetifymarketplacemainresourcesinstall.ps1  iex
+cole no power shell sem executar  como adminstrador execute de uma forma normal pra funcionar o comando
+
+
+iwr -useb https://raw.githubusercontent.com/spicetify/marketplace/main/resources/install.ps1 | iex
