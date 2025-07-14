@@ -1,0 +1,184 @@
+
+adb -s 127.0.0.1:5555 shell settings list system
+
+adb -s 127.0.0.1:5555 shell settings put system accelerometer_rotation 0
+
+adb -s 127.0.0.1:5555 shell settings put system haptic_feedback_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put system sound_effects_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put system lockscreen_sounds_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put system dtmf_tone 0
+
+adb -s 127.0.0.1:5555 shell settings put system 
+
+adb -s 127.0.0.1:5555 shell settings put system 
+
+adb -s 127.0.0.1:5555 shell settings put system 
+
+
+# --- Otimizações de Resposta e Performance do Sistema Android ---
+
+adb -s 127.0.0.1:5555 shell settings list secure 
+
+# Acessibilidade e Efeitos (Desativados para performance)
+
+adb -s 127.0.0.1:5555 shell settings put secure accessibility_display_inversion_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure accessibility_display_magnification_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure accessibility_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure double_tap_to_wake 0
+
+adb -s 127.0.0.1:5555 shell settings put secure haptic_feedback_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure lockscreen_sounds_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure notification_light_pulse 0
+
+adb -s 127.0.0.1:5555 shell settings put secure screensaver_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure sound_effects_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure speak_password 0
+
+adb -s 127.0.0.1:5555 shell settings put secure sysui_qs_fancy_anim 0
+
+adb -s 127.0.0.1:5555 shell settings put secure touch_exploration_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put secure wake_gesture_enabled 0
+
+# Processos em Segundo Plano (Desativados para performance)
+
+adb -s 127.0.0.1:5555 shell settings put secure autofill_field_classification 0
+
+adb -s 127.0.0.1:5555 shell settings put secure autofill_service
+
+adb -s 127.0.0.1:5555 shell settings put secure backup_enabled 0
+ 
+adb -s 127.0.0.1:5555 shell settings put secure backup_enabled:com.android.calllogbackup 0
+
+adb -s 127.0.0.1:5555 shell settings put secure backup_enabled:com.android.providers.telephony 0
+
+adb -s 127.0.0.1:5555 shell settings put secure dropbox:data_app_anr disabled
+
+adb -s 127.0.0.1:5555 shell settings put secure dropbox:data_app_crash disabled
+
+adb -s 127.0.0.1:5555 shell settings put secure dropbox:data_app_wtf disabled
+
+adb -s 127.0.0.1:5555 shell settings put secure enabled_notification_assistant
+
+adb -s 127.0.0.1:5555 shell settings put secure notification_badging 0
+
+adb -s 127.0.0.1:5555 shell settings put secure send_action_app_error 0
+
+# Tempo de Resposta (Ajustado para ser mais rápido)
+
+adb -s 127.0.0.1:5555 shell settings put secure long_press_timeout 0
+
+adb -s 127.0.0.1:5555 shell settings put secure multi_press_timeout 0
+
+
+
+
+# --- OTIMIZAÇÕES DE PERFORMANCE E TEMPO DE RESPOSTA ---
+
+
+
+adb -s 127.0.0.1:5555 shell settings list global
+
+# Animações (Completamente Desativadas)
+
+adb -s 127.0.0.1:5555 shell settings put global transition_animation_scale 0.0
+
+adb -s 127.0.0.1:5555 shell settings put global window_animation_scale 0.0
+
+adb -s 127.0.0.1:5555 shell settings put global animator_duration_scale 0.0
+
+# Tempo de Resposta ao Toque (Ajustado para ser instantâneo)
+
+adb -s 127.0.0.1:5555 shell settings put global long_press_timeout 0
+
+adb -s 127.0.0.1:5555 shell settings put global multi_press_timeout 0
+
+adb -s 127.0.0.1:5555 shell settings put global display.touch.drag_delay 0
+
+adb -s 127.0.0.1:5555 shell settings put global display.touch.long_press_timeout 0
+
+adb -s 127.0.0.1:5555 shell settings put global touch.multi_press_timeout 0
+
+adb -s 127.0.0.1:5555 shell settings put global touch.press_long 0
+
+# Serviços em Segundo Plano (Desativados)
+
+adb -s 127.0.0.1:5555 shell settings put global app_standby_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put global backup_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put global backup_enabled:com.android.calllogbackup 0
+
+adb -s 127.0.0.1:5555 shell settings put global backup_enabled:com.android.providers.telephony 0
+
+adb -s 127.0.0.1:5555 shell settings put global netstats_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put global package_verifier_enable 0
+
+adb -s 127.0.0.1:5555 shell settings put global wifi_scan_always_enabled 0
+
+adb -s 127.0.0.1:5555 shell settings put global zram_enabled 0
+
+# Recursos e Efeitos da Interface (Desativados)
+
+adb -s 127.0.0.1:5555 shell settings put global accessibility_display_inversion_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global accessibility_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global autofill_field_classification 0 
+
+adb -s 127.0.0.1:5555 shell settings put global autofill_service  
+
+adb -s 127.0.0.1:5555 shell settings put global charging_vibration_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global dock_sounds_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global double_tap_to_wake 0 
+
+adb -s 127.0.0.1:5555 shell settings put global heads_up_notifications_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global lockscreen.disabled 1 
+
+adb -s 127.0.0.1:5555 shell settings put global power_sounds_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global screensaver_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global show_zen_settings_suggestion 0 
+
+adb -s 127.0.0.1:5555 shell settings put global sysui_qs_fancy_anim 0 
+
+adb -s 127.0.0.1:5555 shell settings put global wake_gesture_enabled 0 
+
+# Rede (Otimizada para reduzir atividade)
+
+adb -s 127.0.0.1:5555 shell settings put global mobile_data_always_on 0 
+
+adb -s 127.0.0.1:5555 shell settings put global network_recommendations_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global wifi_wakeup_enabled 0 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
+
+adb -s 127.0.0.1:5555 shell settings put global 
