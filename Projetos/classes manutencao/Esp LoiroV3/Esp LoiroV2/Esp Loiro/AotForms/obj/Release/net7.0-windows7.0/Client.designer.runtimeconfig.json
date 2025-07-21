@@ -1,0 +1,42 @@
+{
+  "runtimeOptions": {
+    "tfm": "net7.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "7.0.0"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "7.0.0"
+      }
+    ],
+    "additionalProbingPaths": [
+      "C:\\Users\\FSOS\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ],
+    "configProperties": {
+      "Microsoft.Extensions.DependencyInjection.VerifyOpenGenericServiceTrimmability": true,
+      "System.ComponentModel.TypeConverter.EnableUnsafeBinaryFormatterInDesigntimeLicenseContextSerialization": false,
+      "System.Diagnostics.Tracing.EventSource.IsSupported": false,
+      "System.Drawing.Design.UITypeEditor.IsSupported": false,
+      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+      "System.Resources.ResourceManager.AllowCustomResourceTypes": true,
+      "System.Runtime.InteropServices.BuiltInComInterop.IsSupported": true,
+      "System.Runtime.InteropServices.EnableConsumingManagedCodeFromNativeHosting": false,
+      "System.Runtime.InteropServices.EnableCppCLIHostActivation": false,
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+      "System.StartupHookProvider.IsSupported": false,
+      "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
+      "System.Threading.Thread.EnableAutoreleasePool": false,
+      "System.Windows.Forms.ActiveXImpl.IsSupported": false,
+      "System.Windows.Forms.Binding.IsSupported": false,
+      "System.Windows.Forms.Control.AreDesignTimeFeaturesSupported": false,
+      "System.Windows.Forms.Control.UseComponentModelRegisteredTypes": true,
+      "System.Windows.Forms.ImageIndexConverter.IsSupported": false,
+      "System.Windows.Forms.MdiWindowDialog.IsSupported": false,
+      "System.Windows.Forms.Primitives.TypeConverterHelper.UseComponentModelRegisteredTypes": true,
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

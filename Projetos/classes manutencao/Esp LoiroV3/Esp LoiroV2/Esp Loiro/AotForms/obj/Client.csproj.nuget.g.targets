@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.dotnet.ilcompiler\7.0.20\build\Microsoft.DotNet.ILCompiler.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.dotnet.ilcompiler\7.0.20\build\Microsoft.DotNet.ILCompiler.targets')" />
+    <Import Project="$(NuGetPackageRoot)dnne\2.0.6\build\DNNE.targets" Condition="Exists('$(NuGetPackageRoot)dnne\2.0.6\build\DNNE.targets')" />
+  </ImportGroup>
+</Project>

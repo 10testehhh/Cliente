@@ -1,0 +1,85 @@
+ private void DrawMinimap()
+ {
+     var windowWidth = Core.Width;
+     var windowHeight = Core.Height;
+
+     int DetectionRange = 250;
+
+     float minimapSize = 180f * (DetectionRange / 250f); // Uniform circular minimap
+     Vector2 minimapCenter = new Vector2(100, windowHeight - 100);
+
+     float cameraYaw = -GetCameraYaw();
+     float cosYaw = MathF.Cos(cameraYaw);
+     float sinYaw = MathF.Sin(cameraYaw);
+
+     ImDrawListPtr drawList = ImGui.GetBackgroundDrawList();
+     uint minimapBackgroundColor = ColorToUint32(Color.FromArgb(180, 20, 20, 20));
+     uint minimapBorderColor = ColorToUint32(Color.FromArgb(255, 255, 255, 255));
+
+     // Smooth circular minimap
+     drawList.AddCircleFilled(minimapCenter, minimapSize / 2, minimapBackgroundColor);
+     drawList.AddCircle(minimapCenter, minimapSize / 2 + 2, minimapBorderColor, 100, 2.0f); // Border
+
+     // Grid lines (circular effect)
+     uint gridColor = ColorToUint32(Color.FromArgb(80, 200, 200, 200));
+     for (float i = 0.25f; i <= 1f; i += 0.25f)
+     {
+         drawList.AddCircle(minimapCenter, (minimapSize / 2) * i, gridColor, 100, 0.5f);
+     }
+
+     // Compass directions with better visibility
+     string[] compassDirections = { "N", "E", "S", "W" };
+     for (int i = 0; i < 4; i++)
+     {
+         float angle = cameraYaw + i * MathF.PI / 2;
+         Vector2 directionPos = minimapCenter + new Vector2(MathF.Cos(angle), -MathF.Sin(angle)) * (minimapSize / 2 - 10);
+         drawList.AddText(directionPos - new Vector2(5, 5), ColorToUint32(Color.White), compassDirections[i]);
+     }
+
+     // Player indicator (triangle)
+     uint playerColor = ColorToUint32(Color.Cyan);
+     Vector2[] playerTriangle = new Vector2[3]
+     {
+ minimapCenter + new Vector2(0, -8),   // Top
+ minimapCenter + new Vector2(-6, 6),  // Left
+ minimapCenter + new Vector2(6, 6)    // Right
+     };
+
+     for (int i = 0; i < 3; i++) // Rotate based on cameraYaw
+     {
+         float x = playerTriangle[i].X - minimapCenter.X;
+         float y = playerTriangle[i].Y - minimapCenter.Y;
+         playerTriangle[i].X = minimapCenter.X + (x * cosYaw - y * sinYaw);
+         playerTriangle[i].Y = minimapCenter.Y + (x * sinYaw + y * cosYaw);
+     }
+
+     drawList.AddTriangleFilled(playerTriangle[0], playerTriangle[1], playerTriangle[2], playerColor);
+
+     // Draw entities
+     foreach (var entity in Core.Entities.Values)
+     {
+         if (entity.IsDead) continue;
+
+         float distance = Vector3.Distance(Core.LocalMainCamera, entity.Head);
+         if (distance > DetectionRange) continue;
+
+         Vector3 relativePosition = entity.Head - Core.LocalMainCamera;
+         float scale = minimapSize / (float)DetectionRange;
+
+         float rotatedX = relativePosition.X * cosYaw - relativePosition.Z * sinYaw;
+         float rotatedY = relativePosition.X * sinYaw + relativePosition.Z * cosYaw;
+
+         Vector2 enemyOnMinimap = minimapCenter + new Vector2(rotatedX * scale, -rotatedY * scale);
+
+         if (Vector2.Distance(enemyOnMinimap, minimapCenter) <= minimapSize / 2)
+         {
+             uint enemyColor = entity.IsKnown
+                 ? (entity.IsKnocked ? ColorToUint32(Color.Yellow) : ColorToUint32(Color.Red))
+                 : ColorToUint32(Color.Blue);
+
+             // Dynamic glow effect for better visibility
+             drawList.AddCircleFilled(enemyOnMinimap + new Vector2(2, 2), 6.0f, ColorToUint32(Color.FromArgb(100, 0, 0, 0))); // Shadow
+             drawList.AddCircleFilled(enemyOnMinimap, 5.0f, enemyColor);
+         }
+     }
+ }

@@ -1,0 +1,122 @@
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Helper.dll
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Memory.dll
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.Up2Date
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+D:\New folder (3)\GARENA CHEATS SILENT AIM\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Helper.dll
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Memory.dll
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.Up2Date
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+D:\A Panel\ss internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Helper.dll
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\Memory.dll
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.Up2Date
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\bin\Release\net7.0-windows7.0\win-x64\Helper.dll
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\bin\Release\net7.0-windows7.0\win-x64\Memory.dll
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.Up2Date
+C:\Users\Administrator\Desktop\ANIK X CHEATS INTERNAL\ANIK X CHEATS\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Helper.dll
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Memory.dll
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.Up2Date
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\Administrator\Desktop\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
+C:\Users\FSOS\Desktop\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll.config
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll.config
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.deps.json
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\bin\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.AssemblyReference.cache
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\AotForms.MainMenu.resources
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.Properties.Resources.resources
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.GenerateResource.cache
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfoInputs.cache
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.AssemblyInfo.cs
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.csproj.CoreCompileInputs.cache
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.dll
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\refint\Client.dll
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\Client.pdb
+C:\Users\FSOS\Documents\classes manutencao\Esp LoiroV3\Esp LoiroV2\Esp Loiro\AotForms\obj\Release\net7.0-windows7.0\win-x64\ref\Client.dll
