@@ -1,8 +1,0 @@
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\Client.dll
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\Client.pdb
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\D3DCompiler_47_cor3.dll
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\PenImc_cor3.dll
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\PresentationNative_cor3.dll
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\vcruntime140_cor3.dll
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\wpfgfx_cor3.dll
-D:\A Panel\anik internal\ANIK X CHEATS INTERNAL\[ NEW PROJECT]\AotForms\bin\Release\net7.0-windows7.0\win-x64\publish\cimgui.dll
